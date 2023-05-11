@@ -9,12 +9,22 @@
 	import ElseIfBlock from "./ElseIfBlock.svelte";
 	import EachLoop from "./EachLoop.svelte";
 	import KeyedEachBlock from "./KeyedEachBlock.svelte";
+	import AwaitBlocks from "./AwaitBlocks.svelte";
+	import DomEvents from "./DomEvents.svelte";
+	import InlineHandler from "./InlineHandler.svelte";
+	import EventModifiers from "./EventModifiers.svelte";
+	import ComponentEvents from "./ComponentEvents.svelte";
 	export let name: string;
 </script>
 
 <main>
-	<KeyedEachBlock />
+	<ComponentEvents />
 <!--
+	<EventModifiers />
+	<InlineHandler />
+	<DomEvents />
+	<AwaitBlocks />
+	<KeyedEachBlock />
 	<EachLoop />
 	<ElseIfBlock />
 	<IfElseBlock />
