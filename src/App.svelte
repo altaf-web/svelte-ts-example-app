@@ -8,12 +8,14 @@
 	import IfElseBlock from "./IfElseBlock.svelte";
 	import ElseIfBlock from "./ElseIfBlock.svelte";
 	import EachLoop from "./EachLoop.svelte";
+	import KeyedEachBlock from "./KeyedEachBlock.svelte";
 	export let name: string;
 </script>
 
 <main>
-	<EachLoop />
+	<KeyedEachBlock />
 <!--
+	<EachLoop />
 	<ElseIfBlock />
 	<IfElseBlock />
 	<IfBlock />
