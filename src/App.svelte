@@ -1,4 +1,5 @@
 <script lang="ts">
+/*
 	import Image from "./Image.svelte";
 	import Assignments from "./Assignments.svelte";
 	import Declarations from "./Declarations.svelte";
@@ -14,13 +15,23 @@
 	import InlineHandler from "./InlineHandler.svelte";
 	import EventModifiers from "./EventModifiers.svelte";
 	import ComponentEvents from "./ComponentEvents.svelte";
-	export let name: string;
+	import EventForwarding from "./EventForwarding.svelte";
+	import TextInput from "./TextInput.svelte";
+	import NumericInput from "./NumericInput.svelte";
+*/
+import CheckboxInput from "./CheckboxInput.svelte";
+
+export let name: string;
 	//pass=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
 </script>
 
 <main>
-	<ComponentEvents />
+	<CheckboxInput />
 <!--
+	<NumericInput />
+	<TextInput />
+	<EventForwarding />
+	<ComponentEvents />
 	<EventModifiers />
 	<InlineHandler />
 	<DomEvents />
