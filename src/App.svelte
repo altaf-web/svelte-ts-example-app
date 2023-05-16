@@ -21,8 +21,7 @@
 */
 import CheckboxInput from "./CheckboxInput.svelte";
 
-export let name: string;
-	//pass=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
+	//pass=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
 </script>
 
 <main>
