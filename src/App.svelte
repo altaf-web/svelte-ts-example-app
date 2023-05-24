@@ -1,53 +1,55 @@
 <script lang="ts">
-/*
-	import Image from "./Image.svelte";
-	import Assignments from "./Assignments.svelte";
-	import Declarations from "./Declarations.svelte";
-	import UpdatingArraysAndObject from "./UpdatingArraysAndObject.svelte";
-	import DeclaringProps from "./DeclaringProps.svelte";
-	import IfBlock from "./IfBlock.svelte";
-	import IfElseBlock from "./IfElseBlock.svelte";
-	import ElseIfBlock from "./ElseIfBlock.svelte";
-	import EachLoop from "./EachLoop.svelte";
-	import KeyedEachBlock from "./KeyedEachBlock.svelte";
-	import AwaitBlocks from "./AwaitBlocks.svelte";
-	import DomEvents from "./DomEvents.svelte";
-	import InlineHandler from "./InlineHandler.svelte";
-	import EventModifiers from "./EventModifiers.svelte";
-	import ComponentEvents from "./ComponentEvents.svelte";
-	import EventForwarding from "./EventForwarding.svelte";
-	import TextInput from "./TextInput.svelte";
-	import NumericInput from "./NumericInput.svelte";
-*/
-import CheckboxInput from "./CheckboxInput.svelte";
 
 	//pass=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
+	/*
+        import Image from "./Image.svelte";
+        import Assignments from "./Assignments.svelte";
+        import Declarations from "./Declarations.svelte";
+        import UpdatingArraysAndObject from "./UpdatingArraysAndObject.svelte";
+        import DeclaringProps from "./DeclaringProps.svelte";
+        import IfBlock from "./IfBlock.svelte";
+        import IfElseBlock from "./IfElseBlock.svelte";
+        import ElseIfBlock from "./ElseIfBlock.svelte";
+        import EachLoop from "./EachLoop.svelte";
+        import KeyedEachBlock from "./KeyedEachBlock.svelte";
+        import AwaitBlocks from "./AwaitBlocks.svelte";
+        import DomEvents from "./DomEvents.svelte";
+        import InlineHandler from "./InlineHandler.svelte";
+        import EventModifiers from "./EventModifiers.svelte";
+        import ComponentEvents from "./ComponentEvents.svelte";
+        import EventForwarding from "./EventForwarding.svelte";
+        import TextInput from "./TextInput.svelte";
+        import NumericInput from "./NumericInput.svelte";
+		import CheckboxInput from "./CheckboxInput.svelte";
+    */
+		import GroupInputs from "./GroupInputs.svelte";
 </script>
 
 <main>
-	<CheckboxInput />
-<!--
-	<NumericInput />
-	<TextInput />
-	<EventForwarding />
-	<ComponentEvents />
-	<EventModifiers />
-	<InlineHandler />
-	<DomEvents />
-	<AwaitBlocks />
-	<KeyedEachBlock />
-	<EachLoop />
-	<ElseIfBlock />
-	<IfElseBlock />
-	<IfBlock />
-	<DeclaringProps />
-	<UpdatingArraysAndObject />
-	<h1>Hello {name}!</h1>
-	<p>Iam the Paragraph text</p>
-	<Image />
-	<Assignments />
-	<Declarations />
-    -->
+		<GroupInputs />
+	<!--
+		<CheckboxInput />
+		<NumericInput />
+        <TextInput />
+        <EventForwarding />
+        <ComponentEvents />
+        <EventModifiers />
+        <InlineHandler />
+        <DomEvents />
+        <AwaitBlocks />
+        <KeyedEachBlock />
+        <EachLoop />
+        <ElseIfBlock />
+        <IfElseBlock />
+        <IfBlock />
+        <DeclaringProps />
+        <UpdatingArraysAndObject />
+        <h1>Hello {name}!</h1>
+        <p>Iam the Paragraph text</p>
+        <Image />
+        <Assignments />
+        <Declarations />
+        -->
 </main>
 
 <style>
