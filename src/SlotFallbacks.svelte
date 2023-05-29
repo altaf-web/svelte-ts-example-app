@@ -1,11 +1,11 @@
-<div class="box">
+<div class="slotsFallback">
     <slot>
-        <em>no content was provided</em>
+        <em>No content provided</em>
     </slot>
 </div>
 
 <style>
-    .box {
+    .slotsFallback {
         width: 300px;
         border: 1px solid #aaa;
         border-radius: 2px;

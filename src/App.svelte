@@ -25,11 +25,23 @@
 		import TextareaInputs from "./TextareaInputs.svelte";
 		import ContentEditableBindings from "./ContentEditableBindings.svelte";
 		import OnDestroy from "./OnDestroy.svelte";
+		import Box from "./Box.svelte";
     */
+import SlotFallbacks from "./SlotFallbacks.svelte";
 </script>
 
 <main>
+		<SlotFallbacks>
+			<h2>Hello!</h2>
+			<p>This is a box. It can contain anything.</p>
+		</SlotFallbacks>
+		<SlotFallbacks />
 	<!--
+		<Box>
+			<h2>Hello!</h2>
+			<p>This is a box. It can contain anything.</p>
+		</Box>
+
 		<OnDestroy />
 		<ContentEditableBindings />
 		<SelectBindings />
