@@ -26,6 +26,7 @@
     "@tsconfig/svelte": "^3.0.0"
   },
   "dependencies": {
+    "marked": "^5.0.2",
     "sirv-cli": "^2.0.0"
   }
 }

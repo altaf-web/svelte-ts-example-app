@@ -1,7 +1,7 @@
 <script lang="ts">
 
-	//pass=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
 	/*
+		import SelectBindings from "./SelectBindings.svelte";
         import Image from "./Image.svelte";
         import Assignments from "./Assignments.svelte";
         import Declarations from "./Declarations.svelte";
@@ -21,13 +21,20 @@
         import TextInput from "./TextInput.svelte";
         import NumericInput from "./NumericInput.svelte";
 		import CheckboxInput from "./CheckboxInput.svelte";
-    */
 		import GroupInputs from "./GroupInputs.svelte";
+		import TextareaInputs from "./TextareaInputs.svelte";
+		import ContentEditableBindings from "./ContentEditableBindings.svelte";
+		import OnDestroy from "./OnDestroy.svelte";
+    */
 </script>
 
 <main>
-		<GroupInputs />
 	<!--
+		<OnDestroy />
+		<ContentEditableBindings />
+		<SelectBindings />
+		<TextareaInputs />
+		<GroupInputs />
 		<CheckboxInput />
 		<NumericInput />
         <TextInput />
